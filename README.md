@@ -8,9 +8,6 @@ Personal portfolio website — Computer Vision & Frontend Engineer.
 - **Styling:** Tailwind CSS + Design System (Warm Editorial)
 - **Deploy:** Vercel
 
-## Design System
-Wajib baca sebelum menulis CSS/HTML apapun:
-`C:\Users\lenovo\hermes-workplace\general\general\DESIGN_SYSTEM.md`
 
 ## Milestone Progress
 
