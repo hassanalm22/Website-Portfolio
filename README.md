@@ -17,7 +17,7 @@ Personal portfolio website — Computer Vision & Frontend Engineer.
 | M2 | Hero + About + Education | ✅ Selesai |
 | M3 | Skills + Projects | ✅ Selesai |
 | M4 | Contact + Polish + Responsive | ✅ Selesai |
-| M5 | Deployment (Vercel) | ⏳ Belum |
+| M5 | Deployment (Vercel) | ✅ Selesai |
 
 ## Struktur Folder
 
@@ -187,7 +187,13 @@ taskkill /F /PID 12345
 
 ---
 
-*Troubleshooting log ini dibuat setelah eksekusi M1. Diupdate setelah M3.*
+*Troubleshooting log ini dibuat setelah eksekusi M1. Diupdate setelah M5.*
+
+## Live URL
+
+**Production:** https://website-portfolio-three-indol.vercel.app
+
+Deploy via Vercel Dashboard — import dari GitHub repo `hassanalm22/Website-Portfolio`, branch `main`. Auto-deploy aktif: setiap push ke `main` akan trigger rebuild otomatis.
 
 ---
 
