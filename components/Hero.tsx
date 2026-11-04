@@ -1,6 +1,8 @@
 // M2 — Hero section
 // Section: Parchment (light) — first chapter
 
+import Image from 'next/image'
+
 export default function Hero() {
   return (
     <section
@@ -51,28 +53,26 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* — Avatar monogram — */}
+          {/* — Avatar photo — */}
           <div className="flex-shrink-0 order-first lg:order-last">
             <div className="relative">
               {/* Outer ring */}
               <div className="w-52 h-52 md:w-64 md:h-64 rounded-full border border-warm-300 absolute inset-0 scale-110 opacity-40" />
-              {/* Main circle */}
+              {/* Photo */}
               <div
-                className="w-52 h-52 md:w-64 md:h-64 rounded-full flex items-center justify-center"
+                className="w-52 h-52 md:w-64 md:h-64 rounded-full overflow-hidden"
                 style={{
-                  background: 'linear-gradient(135deg, #e8e6dc 0%, #d1cfc5 100%)',
                   boxShadow: '#e8e6dc 0px 0px 0px 0px, #d1cfc5 0px 0px 0px 1px, rgba(0,0,0,0.06) 0px 8px 32px',
                 }}
               >
-                {/* Corner detail dots */}
-                <div className="relative flex items-center justify-center w-full h-full">
-                  <div className="absolute top-6 right-8 w-1.5 h-1.5 rounded-full bg-warm-400 opacity-60" />
-                  <div className="absolute bottom-8 left-7 w-1 h-1 rounded-full bg-warm-400 opacity-40" />
-                  {/* Monogram */}
-                  <span className="font-serif text-5xl md:text-6xl font-medium text-warm-700 select-none tracking-tight">
-                    MH
-                  </span>
-                </div>
+                <Image
+                  src="/avatar.jpg"
+                  alt="M. Hassanal Mu'izzam Hassanudin"
+                  width={256}
+                  height={256}
+                  className="w-full h-full object-cover object-top"
+                  priority
+                />
               </div>
             </div>
           </div>

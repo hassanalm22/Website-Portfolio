@@ -18,6 +18,7 @@ Personal portfolio website — Computer Vision & Frontend Engineer.
 | M3 | Skills + Projects | ✅ Selesai |
 | M4 | Contact + Polish + Responsive | ✅ Selesai |
 | M5 | Deployment (Vercel) | ✅ Selesai |
+| M6 | Asset Polish (foto, favicon, OG image) | ✅ Selesai |
 
 ## Struktur Folder
 
@@ -39,7 +40,9 @@ web-portfolio/
 ├── data/
 │   └── projects.ts      ✅ Type ProjectCard[], 3 proyek awal
 ├── public/
-│   └── (aset statis)
+│   ├── avatar.jpg       ✅ Foto profil (Hero)
+│   ├── favicon.svg      ✅ Monogram MH, warm gradient
+│   └── og-image.png     ✅ Open Graph 1200×630
 ├── tailwind.config.ts   ✅ Design System palette + shadows
 ├── .hermes.md
 ├── PRD.md
